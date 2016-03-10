@@ -16,7 +16,6 @@
 3.JacksonTian
     Github主页：https://github.com/JacksonTian
     个人主页：http://diveintonode.org/
-    微博：@朴灵
 
 4.astaxie
     Github主页：https://github.com/astaxie
@@ -25,7 +24,6 @@
 5.laruence
     Github主页：https://github.com/laruence
     个人主页：http://www.laruence.com
-    微博：@Laruence
 
 
 6.sofish
