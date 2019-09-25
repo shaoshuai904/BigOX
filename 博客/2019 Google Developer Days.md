@@ -4,7 +4,7 @@
 本文为2019 Google Developer Days大会内容总结。详情可参阅[官网](https://events.google.cn/intl/zh-CN/developerdays2019/).
 
 
-![思维导图](https://github.com/shaoshuai904/BigOX/blob/master/博客/res/2019_google_dev_days_1.png)
+![思维导图](https://github.com/shaoshuai904/BigOX/blob/master/博客/res/2019_android.png)
 
 
 ### Android
@@ -32,7 +32,7 @@
 	- 保护外部存储中的用户数据
 	- 限制从后台启动的活动
 	- MAC地址随机化
-	- 对不可重置设备标识符的访问限制
+	- [对不可重置设备标识符的访问限制](https://developer.android.com/training/articles/user-data-ids)
 
 详细信息请查看官网 [https://developer.android.com/about/versions/10/privacy](https://developer.android.com/about/versions/10/privacy)
 
@@ -54,36 +54,68 @@
 
 详细信息请查看官网 [https://developer.android.com/reference/android/net/ConnectivityManager](https://developer.android.com/reference/android/net/ConnectivityManager)
 
+- 专注模式
+- SAW* 被废止
+- TLS 1.3 默认开启
+- 生物识别登陆
+- ShareSheet API
+- Bubbles
 - ...
 
 > Kotlin First
 
-> Jetpack Compose (pre-alpha)
+- 新 Jetpack API 和功能首先在Kotlin中提供
+- 新项目用Kotlin编写
 
-- 下一代UI工具包
-- 非绑定
-- 响应式
-- Kotlin优先
+> Android Jetpack
+
+- Camera X
+	- 兼容至L (90%设备)
+	- 设备一致性
+	- 使用方便
+- AndroidX Test
+- 新包
+	- Jetpack Compose 下一代UI工具包
+	- Jetpack Security Library 加密包，支持6.0+
+	- Jetpack Benchmark Library 测试代码性能
+- 架构组件
+	- Data Binding
+	- View Binding 
+	- WorkManager
+	- Navigation
+	- SavedState for ViewModel
+	- Room
+	- ViewPager2
 
 > ConstraintLayout 和 MotionLayout 增强
 
-> AndroidX Test
-
 > App Bundle实现自定义交付，并共享测试版本。
 
+- 10%-60%的app瘦身
+- 定制化分发
+	- 应用内更新
+	- 按条件分发
+	- 按需分发
+	- 游戏资源分发
+- Demo：[Plaid](https://github.com/android/plaid)
+
 > 借助Android Studio工具，基准化分析，提升应用性能
+
+- Profiler
+- Build -> Analyze APK...
 
 > 无障碍
 
 - 有10亿人存在各种不同程度的障碍，无障碍化app势在必行
 
-> Android Studio 3.5 磐石计划
+> Android Studio 3.5
 
-- Project Marble
-- 系统健康
-- 功能优化
-- 问题修复
+- Project Marble 磐石计划
 - 离线组件
+- 增加内存堆
+- Lint代码检查
+- 构建速度
+- Apply Changes
 		
 ### Flutter
 
