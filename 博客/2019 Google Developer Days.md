@@ -3,11 +3,16 @@
 
 本文为2019 Google Developer Days大会内容总结。详情可参阅[官网](https://events.google.cn/intl/zh-CN/developerdays2019/).
 
+![思维导图](https://github.com/shaoshuai904/BigOX/blob/master/博客/res/2019_google_dev_days.png)
+
+
+---
+
+### Android
+
 
 ![思维导图](https://github.com/shaoshuai904/BigOX/blob/master/博客/res/2019_android.png)
 
-
-### Android
 
 > Android 10新特性
 
@@ -116,13 +121,17 @@
 - Lint代码检查
 - 构建速度
 - Apply Changes
-		
+
+---
+
 ### Flutter
 
 - 1.9版本发布
 - 混合开发，势在必行
 - Flutter如何呈现组件
 - 快速构建Flutter混合应用
+
+---
 
 ### TensorFlow
 
