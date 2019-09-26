@@ -94,6 +94,9 @@
 
 > ConstraintLayout 和 MotionLayout 增强
 
+- ```ConstraintLayout```是功能更强大的```RelativeLayout```，新项目默认布局
+- class ```MotionLayout``` **extends** ```ConstraintLayout```
+
 > App Bundle实现自定义交付，并共享测试版本。
 
 - 10%-60%的app瘦身
